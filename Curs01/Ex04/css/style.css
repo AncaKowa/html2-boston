@@ -1,5 +1,9 @@
 body {
   background-color: red;
 }
-
-/*# sourceMappingURL=style.css.map */
+.home-catalog-preview {
+  margin: auto;
+}
+.home-catalog-preview .product-tiles {
+  color: red;
+} /*# sourceMappingURL=style.css.map */

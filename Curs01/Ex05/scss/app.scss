@@ -26,3 +26,46 @@ ul {
     padding: 10px 20px;
   }
 }
+
+ul a {
+  &:active {
+    color: purple;
+  }
+}
+
+ul a {
+  &:visited {
+    color: green;
+  }
+}
+
+$brand-main: magenta;
+
+$brand-secondary: lightcoral;
+
+$brand-primary: pink;
+
+ol a {
+  &:hover {
+    color: magenta;
+  }
+  &:active {
+    color: pink;
+  }
+  &:visited {
+    color: lightcoral;
+  }
+}
+
+.body {
+}
+
+.all-visited a {
+  text-decoration: line-through;
+}
+
+a {
+  .all-visited & {
+    text-decoration: line-through;
+  }
+}

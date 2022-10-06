@@ -22,4 +22,30 @@ ul a:hover {
   padding: 10px 20px;
 }
 
+ul a:active {
+  color: purple;
+}
+
+ul a:visited {
+  color: green;
+}
+
+ol a:hover {
+  color: magenta;
+}
+ol a:active {
+  color: pink;
+}
+ol a:visited {
+  color: lightcoral;
+}
+
+.all-visited a {
+  text-decoration: line-through;
+}
+
+.all-visited a {
+  text-decoration: line-through;
+}
+
 /*# sourceMappingURL=style.css.map */
