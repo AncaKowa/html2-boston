@@ -12,7 +12,7 @@
   height: 200px;
   display: block;
   border: 1px solid black;
-  border-color: turquoise;
+  background-color: turquoise;
 }
 
 .square-magenta {
@@ -25,6 +25,29 @@
 
 .square-purple {
   background-color: purple;
+}
+
+.circles {
+  width: 75%;
+  border: 2px dotted brown;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.circle-red {
+  background-color: red;
+}
+
+.circle-green {
+  background-color: green;
+}
+
+.circle-blue {
+  background-color: blue;
+}
+
+.circle-border-blue {
+  border-color: solid blue;
 }
 
 /*# sourceMappingURL=style.css.map */
