@@ -8,8 +8,13 @@
   color: blue;
 }
 
+.brand-special {
+  background-color: pink;
+  color: gray;
+}
+
 .test {
-  color: red;
+  color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */

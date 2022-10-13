@@ -44,9 +44,12 @@
 
 @mixin circle() {
   border: 3px red;
-  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   background-color: purple;
 }
+// de verificat, nu-mi iese cerinta 7
 
 @mixin circle-bg($color: aqua) {
   background-color: $color;
