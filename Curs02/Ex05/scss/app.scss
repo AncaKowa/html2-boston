@@ -10,6 +10,16 @@
   border: 1px solid #000;
 }
 
+// cerinta2
+
+@for $i from 1 through 9 {
+  .box-0#{$i} {
+    border-width: $i * 1px;
+  }
+}
+
+// cerinta3
+
 @for $i from 1 through 9 {
   .box-#{$i} {
     @if $i % 2==0 {

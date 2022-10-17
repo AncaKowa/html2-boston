@@ -15,3 +15,7 @@
 @include btn-class('.btn-tertiary', 'color', green);
 
 @include btn-class('.btn-text-gray', 'color', gray);
+
+.btn-inverted {
+  @include btn-class('.btn-text-gray', 'padding', 10px);
+}

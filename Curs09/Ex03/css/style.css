@@ -48,11 +48,38 @@ body {
   color: #fff;
 }
 /* do not touch this */
+/* cerinta 1 */
+.flex-container-01 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* cerinta 2 */
+.flex-container-02 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* cerinta 3 */
+.flex-container-03 {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
 /* cerinta4 */
 .flex-container-04 {
   flex-direction: column-reverse;
   justify-content: flex-end;
+}
+
+/* cerinta 5 */
+.flex-container-05 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 /* cerinta 6 */

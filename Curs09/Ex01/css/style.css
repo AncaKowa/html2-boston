@@ -38,6 +38,13 @@
 }
 /* do not touch this */
 
+/* cerinta 1 */
+.flex-container-01 {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
 /* cerinta 2 */
 .flex-container-02 {
   flex-direction: row-reverse;
@@ -45,9 +52,28 @@
   align-items: flex-end;
 }
 
+/* cerinta 3 */
+.flex-container-03 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* cerinta 4 */
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
 /* cerinta 5 */
 .flex-container-05 {
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: flex-end;
+}
+
+/* cerinta 6 */
+.flex-container-06 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
