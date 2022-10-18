@@ -57,3 +57,20 @@ body {
   left: 10px;
 }
 /* do not touch this */
+
+/* cerinta 2  */
+.flex-container-02 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* pt elementul   <div class="flex-item">1</div> */
+.flex-container-02 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+/* pt elem <div class="flex-item">4</div> */
+.flex-container-02 :last-child {
+  flex-shrink: 3;
+}
