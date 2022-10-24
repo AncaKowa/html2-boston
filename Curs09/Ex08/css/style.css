@@ -51,6 +51,19 @@
 }
 /* do not touch this */
 
+/* cerinta 1 */
+
+.flex-container-01 {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-container-01 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+/* cerinta 2 */
+
 .flex-container-02 {
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -64,4 +77,61 @@
 
 .flex-container-02 :nth-last-of-type(2) {
   flex-shrink: 3;
+}
+
+/* cerinta 3 */
+
+.flex-container-03 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-03 > :nth-of-type(1) + div + div {
+  flex-shrink: 2;
+}
+
+.flex-container-03 :nth-last-of-type(1) {
+  flex-shrink: 3;
+}
+
+/* cerinta 4 */
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-04 :nth-of-type(4) {
+  flex-shrink: 2;
+}
+
+.flex-container-04 :nth-child(3) {
+  flex-shrink: 3;
+}
+
+/* cerinta 5 */
+
+.flex-container-05 {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-05 > div + .flex-item {
+  flex-shrink: 2;
+}
+
+/* cerinta 6 */
+
+.flex-container-06 {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-06 > div + div + div {
+  flex-shrink: 3;
+}
+
+.flex-container-06 :nth-last-of-type(1) {
+  flex-shrink: 0;
 }

@@ -58,6 +58,18 @@ body {
 }
 /* do not touch this */
 
+/* cerinta 1 */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-01 :nth-child(2) {
+  flex-shrink: 2;
+}
+
 /* cerinta 2  */
 .flex-container-02 {
   flex-direction: column;
@@ -73,4 +85,54 @@ body {
 /* pt elem <div class="flex-item">4</div> */
 .flex-container-02 :last-child {
   flex-shrink: 3;
+}
+
+/* cerinta 3 */
+
+.flex-container-03 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.flex-container-03 :nth-child(3) {
+  flex-shrink: 2;
+}
+
+/* cerinta 4 */
+
+.flex-container-04 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-04 > div + div + div {
+  flex-shrink: 3;
+}
+
+.flex-container-04 > div + div + div + div {
+  flex-shrink: 2;
+}
+
+/* cerinta 5 */
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-05 :nth-last-of-type(2) {
+  flex-shrink: 2;
+}
+
+/* cerinta 6 */
+.flex-container-06 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-06 :last-child {
+  flex-shrink: 2;
 }

@@ -56,7 +56,37 @@ body {
   align-content: space-around;
 }
 
-/* de facutt 5, e tema, doar l-am inceput aici */
+/* cerinta 2 */
+.flex-container-02 {
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+/* cerinta 3 */
+.flex-container-03 {
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+
+/* cerinta 4 */
+.flex-container-04 {
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+}
+
+/* cerinta 5*/
 .flex-container-05 {
   flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+/* cerinta 6 */
+.flex-container-06 {
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }

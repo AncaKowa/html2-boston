@@ -41,6 +41,17 @@
   color: #fff;
 }
 /* do not touch this */
+
+/* cerinta 1  */
+.flex-container-01 {
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-01 :nth-child(4) {
+  align-self: center;
+}
+
 /* cerinta 2 */
 .flex-container-02 {
   justify-content: center;
@@ -61,4 +72,37 @@
 /* asa selectez elementul   <div class="flex-item">1</div> */
 .flex-container-03 div:nth-of-type(2) {
   align-self: flex-start;
+}
+
+/* cerinta 4 */
+
+.flex-container-04 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-last-child(1) {
+  align-self: center;
+}
+
+/* cerinta 5 */
+
+.flex-container-05 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-05 :nth-child(4) {
+  align-self: stretch;
+}
+
+/* cerinta 6 */
+
+.flex-container-06 {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex-container-06 :nth-child(4) {
+  align-self: flex-end;
 }

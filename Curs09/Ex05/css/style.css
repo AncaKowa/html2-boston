@@ -49,6 +49,29 @@ body {
 }
 /* do not touch this */
 
+/* cerinta 1 */
+
+.flex-container-01 {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-01 div:nth-last-child(1) {
+  align-self: flex-start;
+}
+/* cerinta 2 */
+
+.flex-container-02 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-02 div:nth-of-type(5) {
+  align-self: flex-end;
+}
+
 /* cerinta 3 */
 
 .flex-container-03 {
@@ -64,6 +87,30 @@ body {
   max-width: unset;
 }
 
+/* cerinta 4 */
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-container-04 div:nth-child(5) {
+  align-self: flex-start;
+}
+
+/* cerinta 5 */
+.flex-container-05 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-05 > :nth-child(2) + div + div {
+  align-self: stretch;
+}
+
+/* cerinta 6 */
 .flex-container-06 {
   flex-direction: column;
   justify-content: flex-end;
