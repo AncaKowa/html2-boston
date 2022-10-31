@@ -36,3 +36,49 @@
 .grid-item-5 {
   grid-column: 1 / span 2;
 }
+
+/* cerinta 1 */
+
+.grid-container-1 :nth-of-type(4) {
+  order: -1;
+}
+
+.grid-container-1 :nth-child(1) {
+  order: -2;
+}
+
+/* cerinta 2 */
+.grid-container-2 :nth-child(4) {
+  order: -1;
+}
+
+.grid-container-2 :nth-child(2) {
+  order: 1;
+}
+
+.grid-container-2 :nth-child(1) {
+  order: 2;
+}
+
+/* cerinta 3 */
+.grid-container-3 :nth-child(3) {
+  order: -3;
+}
+
+.grid-container-3 :nth-child(5) {
+  order: -2;
+}
+
+.grid-container-3 :nth-last-of-type(4) {
+  order: -1;
+}
+
+/* cerinta 4 */
+
+.grid-container-4 :nth-of-type(3) {
+  order: 1;
+}
+
+.grid-container-4 :nth-of-type(2) {
+  order: 2;
+}
